@@ -1,14 +1,3 @@
-# SFDX  App
+# force-di Demo
 
-## Dev, Build and Test
-
-
-## Resources
-
-
-## Description of Files and Directories
-
-
-## Issues
-
-
+WIP: Demo repository for force-di
