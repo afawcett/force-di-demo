@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <interviewLabel>ShipmentSupportForm {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Shipment Support Form</label>
+    <processType>Flow</processType>
+    <screens>
+        <name>SupportForm</name>
+        <label>SupportForm</label>
+        <locationX>282</locationX>
+        <locationY>78</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>Header</name>
+            <fieldText>Got a question above your shipment?</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Question</name>
+            <fieldText>Question</fieldText>
+            <fieldType>LargeTextArea</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <startElementReference>SupportForm</startElementReference>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

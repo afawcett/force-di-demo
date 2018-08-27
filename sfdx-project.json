@@ -1,0 +1,119 @@
+{
+    "packageDirectories": [
+        {
+            "path": "finance-app",
+            "default": false,
+            "package": "finance-app",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "force-di@0.1.0-3"
+                },
+                {
+                    "package": "shared-lib@0.1.0-1"
+                },
+                {
+                    "package": "shipping-app@0.1.0-2"
+                }
+            ]
+        },
+        {
+            "path": "shipping-app",
+            "default": false,
+            "package": "shipping-app",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "force-di@0.1.0-3"
+                },
+                {
+                    "package": "shared-lib@0.1.0-1"
+                }
+            ]
+        },
+        {
+            "path": "shipping-app-fedex",
+            "default": false,
+            "package": "shipping-app-fedex",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "force-di@0.1.0-3"
+                },
+                {
+                    "package": "shared-lib@0.1.0-1"
+                },
+                {
+                    "package": "shipping-app@0.1.0-2"
+                }
+            ]
+        },
+        {
+            "path": "shipping-app-ups",
+            "default": true,
+            "package": "shipping-app-ups",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "force-di@0.1.0-3"
+                },
+                {
+                    "package": "shared-lib@0.1.0-1"
+                },
+                {
+                    "package": "shipping-app@0.1.0-2"
+                }
+            ]
+        },
+        {
+            "path": "support-app",
+            "default": false,
+            "package": "support-app",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "force-di@0.1.0-3"
+                }
+            ]
+        },
+        {
+            "path": "shared-lib",
+            "default": false,
+            "package": "shared-lib",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "force-di@0.1.0-3"
+                }
+            ]
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "43.0",
+    "packageAliases": {
+        "force-di@0.1.0-3": "04t1N000000Cr2dQAC",
+        "shared-lib": "0Ho1N000000GmaYSAS",
+        "shared-lib@0.1.0-1": "04t1N000000Cr24QAC",
+        "shipping-app": "0Ho1N000000GmadSAC",
+        "shipping-app@0.1.0-2": "04t1N000000Cr2EQAS",
+        "shipping-app-fedex": "0Ho1N000000GmaiSAC",
+        "shipping-app-fedex@0.1.0-1": "04t1N000000Cr2JQAS",
+        "shipping-app-fedex@0.1.0-2": "04t1N000000Cr2iQAC",
+        "shipping-app-ups": "0Ho1N000000GmanSAC",
+        "shipping-app-ups@0.1.0-1": "04t1N000000Cr2OQAS",
+        "shipping-app-ups@0.1.0-2": "04t1N000000Cr2nQAC",
+        "shipping-app-ups@0.1.0-3": "04t1N000000Cr2sQAC",
+        "shipping-app-ups@0.1.0-4": "04t1N000000Cr2xQAC",
+        "finance-app": "0Ho1N000000GmasSAC",
+        "finance-app@0.1.0-1": "04t1N000000Cr2TQAS",
+        "support-app": "0Ho1N000000GmaxSAC",
+        "support-app@0.1.0-1": "04t1N000000Cr2YQAS"        
+    }
+}

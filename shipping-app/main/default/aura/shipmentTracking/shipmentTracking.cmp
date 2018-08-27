@@ -1,0 +1,5 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId">
+    <c:di_injector bindingName="ShipmentTracking">
+        <c:di_injectorAttribute name="recordId" value="{!v.recordId}"/>
+    </c:di_injector>
+</aura:component>
