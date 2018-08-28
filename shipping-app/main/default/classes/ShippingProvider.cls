@@ -5,7 +5,7 @@ public class ShippingProvider {
         (ShippingIntegration) di_Injector.Org.getInstance(ShippingIntegration.class);
 
     // Shipping log
-    private ShippingLog log = (ShippingLog) 
+    private ShippingLog log =
         (ShippingLog) di_Injector.Org.getInstance(ShippingLog.class);
 
     /**
