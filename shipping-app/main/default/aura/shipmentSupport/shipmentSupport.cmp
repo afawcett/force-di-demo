@@ -1,5 +1,5 @@
 <aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId">
-    <lightning:card>
+    <lightning:card title="">
         <c:di_injector bindingName="ShipmentSupport">
             <c:di_injectorAttribute name="recordId" value="{!v.recordId}"/>
         </c:di_injector>
