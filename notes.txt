@@ -1,26 +1,38 @@
+Demo CLI Steps
+==============
+
+1. Start with the FedEx package installed, create a record
+2. Uninstall it 
+   sfdx force:package:uninstall --package shipping-app-fedex@0.1.0-4 -w 10
+3. Install UPS
+   sfdx force:package:install --package shipping-app-ups@0.1.0-6 -w 10
+3. Refresh the page to show dynamic plug and play
+4. Create a new record to show the new trigger handler calculating a different figure
+
+Install/Uninstall CLI
+================= ====
 
 sfdx force:package:install --package force-di@0.1.0-5 -w 10
 sfdx force:package:install --package shared-lib@0.1.0-1 -w 10
 sfdx force:package:install --package shipping-app@0.1.0-2 -w 10
-sfdx force:package:install --package shipping-app-fedex@0.1.0-3 -w 10
-sfdx force:package:install --package support-app@0.1.0-1 -w 10
+sfdx force:package:install --package shipping-app-fedex@0.1.0-4 -w 10
+sfdx force:package:install --package support-app@0.1.0-2 -w 10
 sfdx force:package:install --package finance-app@0.1.0-1 -w 10
-sfdx force:package:install --package shipping-app-ups@0.1.0-5 -w 10
-
-sfdx force:user:permset:assign --permsetname ShippingApp
-
-sfdx force:org:open -p /lightning/o/Shipment/list
+sfdx force:package:install --package shipping-app-ups@0.1.0-6 -w 10
 
 sfdx force:package:uninstall --package force-di@0.1.0-5 -w 10
 sfdx force:package:uninstall --package shared-lib@0.1.0-1 -w 10
 sfdx force:package:uninstall --package shipping-app@0.1.0-2 -w 10
-sfdx force:package:uninstall --package shipping-app-fedex@0.1.0-3 -w 10
-sfdx force:package:uninstall --package support-app@0.1.0-1 -w 10
+sfdx force:package:uninstall --package shipping-app-fedex@0.1.0-4 -w 10
+sfdx force:package:uninstall --package support-app@0.1.0-2 -w 10
 sfdx force:package:uninstall --package finance-app@0.1.0-1 -w 10
-sfdx force:package:uninstall --package shipping-app-ups@0.1.0-5 -w 10
+sfdx force:package:uninstall --package shipping-app-ups@0.1.0-6 -w 10
 
+Other Useful CLI
+================
+
+sfdx force:user:permset:assign --permsetname ShippingApp
+sfdx force:org:open -p /lightning/o/Shipment/list
 sfdx force:package:installed:list
-
 sfdx force:package:version:create -p shipping-app-fedex -x -w 10
-
 sfdx force:package:version:create -p shipping-app-ups -x -w 10

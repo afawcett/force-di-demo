@@ -107,15 +107,18 @@
         "shipping-app-fedex@0.1.0-1": "04t1N000000Cr2JQAS",
         "shipping-app-fedex@0.1.0-2": "04t1N000000Cr2iQAC",
         "shipping-app-fedex@0.1.0-3": "04t1N000000Cr88QAC",
+        "shipping-app-fedex@0.1.0-4": "04t1N000000Cr8NQAS",
         "shipping-app-ups": "0Ho1N000000GmanSAC",
         "shipping-app-ups@0.1.0-1": "04t1N000000Cr2OQAS",
         "shipping-app-ups@0.1.0-2": "04t1N000000Cr2nQAC",
         "shipping-app-ups@0.1.0-3": "04t1N000000Cr2sQAC",
         "shipping-app-ups@0.1.0-4": "04t1N000000Cr2xQAC",
         "shipping-app-ups@0.1.0-5": "04t1N000000Cr8DQAS",
+        "shipping-app-ups@0.1.0-6": "04t1N000000Cr8SQAS",
         "finance-app": "0Ho1N000000GmasSAC",
         "finance-app@0.1.0-1": "04t1N000000Cr2TQAS",
         "support-app": "0Ho1N000000GmaxSAC",
-        "support-app@0.1.0-1": "04t1N000000Cr2YQAS"
+        "support-app@0.1.0-1": "04t1N000000Cr2YQAS",
+        "support-app@0.1.0-2": "04t1N000000Cr8XQAS"
     }
 }
