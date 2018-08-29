@@ -1,7 +1,7 @@
 <aura:component>
     <aura:attribute name="recordId" type="String"/>
-    <lightning:card>
+    <lightning:card title="">
         <img src="{!$Resource.fedexlogo}"/>
         <div class="slds-p-around_x-small">FedEx Tracking {!v.recordId}</div>
     </lightning:card>
-</aura:component>	
+</aura:component>
