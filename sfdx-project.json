@@ -20,7 +20,7 @@
         },
         {
             "path": "shipping-app",
-            "default": false,
+            "default": true,
             "package": "shipping-app",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
@@ -53,7 +53,7 @@
         },
         {
             "path": "shipping-app-ups",
-            "default": true,
+            "default": false,
             "package": "shipping-app-ups",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
@@ -116,6 +116,6 @@
         "finance-app": "0Ho1N000000GmasSAC",
         "finance-app@0.1.0-1": "04t1N000000Cr2TQAS",
         "support-app": "0Ho1N000000GmaxSAC",
-        "support-app@0.1.0-1": "04t1N000000Cr2YQAS"        
+        "support-app@0.1.0-1": "04t1N000000Cr2YQAS"
     }
 }

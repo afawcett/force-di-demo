@@ -13,7 +13,7 @@
         <allowPause>true</allowPause>
         <fields>
             <name>Header</name>
-            <fieldText>Got a question above your shipment?</fieldText>
+            <fieldText>Got a question about your shipment?</fieldText>
             <fieldType>DisplayText</fieldType>
         </fields>
         <fields>

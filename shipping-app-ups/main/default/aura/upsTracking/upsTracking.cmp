@@ -1,7 +1,7 @@
 <aura:component>
     <aura:attribute name="recordId" type="String"/>
-    <lightning:card>
+    <lightning:card title="" class="slds-p-horizontal_x-small">
         <img src="{!$Resource.upslogo}"/>
-        <div class="slds-p-around_x-small">Ups Tracking {!v.recordId}</div>
+        <div class="slds-p-vertical_x-small">UPS Tracking {!v.recordId}</div>
     </lightning:card>
-</aura:component>	
+</aura:component>
