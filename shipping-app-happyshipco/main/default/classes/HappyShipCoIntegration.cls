@@ -1,4 +1,4 @@
-public class FedExIntegration implements ShippingIntegration {
+public class HappyShipCoIntegration implements ShippingIntegration {
     // Calculate shipping costs
     public List<Decimal> calculateCost(List<Shipment> shippingRequests) {
         return new List<Decimal> { 150 };

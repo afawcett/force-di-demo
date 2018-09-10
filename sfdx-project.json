@@ -34,9 +34,9 @@
             ]
         },
         {
-            "path": "shipping-app-fedex",
+            "path": "shipping-app-expressship",
             "default": false,
-            "package": "shipping-app-fedex",
+            "package": "shipping-app-expressship",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
             "dependencies": [
@@ -52,9 +52,9 @@
             ]
         },
         {
-            "path": "shipping-app-ups",
+            "path": "shipping-app-happyshipco",
             "default": false,
-            "package": "shipping-app-ups",
+            "package": "shipping-app-happyshipco",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
             "dependencies": [
@@ -103,22 +103,14 @@
         "shared-lib@0.1.0-1": "04t1N000000Cr24QAC",
         "shipping-app": "0Ho1N000000GmadSAC",
         "shipping-app@0.1.0-2": "04t1N000000Cr2EQAS",
-        "shipping-app-fedex": "0Ho1N000000GmaiSAC",
-        "shipping-app-fedex@0.1.0-1": "04t1N000000Cr2JQAS",
-        "shipping-app-fedex@0.1.0-2": "04t1N000000Cr2iQAC",
-        "shipping-app-fedex@0.1.0-3": "04t1N000000Cr88QAC",
-        "shipping-app-fedex@0.1.0-4": "04t1N000000Cr8NQAS",
-        "shipping-app-ups": "0Ho1N000000GmanSAC",
-        "shipping-app-ups@0.1.0-1": "04t1N000000Cr2OQAS",
-        "shipping-app-ups@0.1.0-2": "04t1N000000Cr2nQAC",
-        "shipping-app-ups@0.1.0-3": "04t1N000000Cr2sQAC",
-        "shipping-app-ups@0.1.0-4": "04t1N000000Cr2xQAC",
-        "shipping-app-ups@0.1.0-5": "04t1N000000Cr8DQAS",
-        "shipping-app-ups@0.1.0-6": "04t1N000000Cr8SQAS",
         "finance-app": "0Ho1N000000GmasSAC",
         "finance-app@0.1.0-1": "04t1N000000Cr2TQAS",
         "support-app": "0Ho1N000000GmaxSAC",
         "support-app@0.1.0-1": "04t1N000000Cr2YQAS",
-        "support-app@0.1.0-2": "04t1N000000Cr8XQAS"
+        "support-app@0.1.0-2": "04t1N000000Cr8XQAS",
+        "shipping-app-expressship": "0Ho6A000000blKqSAI",
+        "shipping-app-happyshipco": "0Ho6A000000blKvSAI",
+        "shipping-app-expressship@0.1.0-1": "04t6A000002w9ANQAY",
+        "shipping-app-happyshipco@0.1.0-1": "04t6A000002w9ASQAY"
     }
 }

@@ -1,4 +1,4 @@
-public class UPSIntegration implements ShippingIntegration {
+public class ExpressShipIntegration implements ShippingIntegration {
     // Calculate shipping costs
     public List<Decimal> calculateCost(List<Shipment> shippingRequest) {
         return new List<Decimal> { 100 };
