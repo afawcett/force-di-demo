@@ -1,13 +1,13 @@
 Demo CLI Steps
 ==============
 
-1. Start with the FedEx package installed, create a record
-2. Uninstall it 
+1. Start with the ExpressShip package installed, create a record
+2. Uninstall it
    sfdx force:package:uninstall --package shipping-app-expressship@0.1.0-1 -w 10
-3. Install UPS
-   sfdx force:package:install --package shipping-app-ups@0.1.0-6 -w 10
-3. Refresh the page to show dynamic plug and play
-4. Create a new record to show the new trigger handler calculating a different figure
+3. Install HappyShipCo
+   sfdx force:package:install --package shipping-app-happyshipco@0.1.0-1 -w 10
+4. Refresh the page to show dynamic plug and play
+5. Create a new record to show the new trigger handler calculating a different figure
 
 Install/Uninstall CLI
 ================= ====
