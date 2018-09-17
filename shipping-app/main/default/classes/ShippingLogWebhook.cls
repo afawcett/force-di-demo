@@ -3,16 +3,18 @@
  **/
 public class ShippingLogWebhook implements ShippingLog {
 
-	private String endpoint;
-
-    public ShippingLogWebhook(String endpoint) {
-        this.endpoint = endpoint;
+    public static Boolean isConfigured() {
+        Integer count = [
+            SELECT COUNT() FROM NamedCredential
+            WHERE DeveloperName = 'Shipping_Log_Webhook'
+        ];
+        return (count > 0);
     }
 
     public void status(List<Shipment> shippingRequests, ShippingStatus status, String detail) {
         System.debug('Logging shipping requests to webhook...');
         HttpRequest req = new HttpRequest();
-        req.setEndpoint(this.endpoint);
+        req.setEndpoint('callout:Shipping_Log_Webhook');
         req.setMethod('POST');
         req.setHeader('Content-Type', 'application/json');
         req.setBody(JSON.serializePretty(new Map<String, Object>{
