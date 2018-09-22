@@ -12,10 +12,10 @@
     </values>
     <values>
         <field>To__c</field>
-        <value xsi:type="xsd:string">ShippingLogDatabase</value>
+        <value xsi:type="xsd:string">ShippingLogModule</value>
     </values>
     <values>
         <field>Type__c</field>
-        <value xsi:type="xsd:string">Apex</value>
+        <value xsi:type="xsd:string">Module</value>
     </values>
 </CustomMetadata>
