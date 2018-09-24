@@ -40,7 +40,7 @@ sfdx force:user:permset:assign --permsetname ShippingApp
 6. Test out the application: log in and create a new shipment record
 
 ```
-sfdx force:org:open -p /lightning/o/Shipment/list
+sfdx force:org:open --path "//lightning/o/Shipment/list"
 ```
 
 7. Inject different implementations by editing the **Binding** custom metadata types
